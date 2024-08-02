@@ -28,3 +28,20 @@ Run the following command to install the necessary dependencies:
 go mod tidy
 ```
 
+Running the Server
+
+To run the server, execute the following command:
+
+```
+go run cmd/server/main.go
+```
+The server will start and listen on the address and port specified in the config.yaml file (default is localhost:8080).
+Running the Client
+
+To run the client, execute the following command:
+
+```
+go run cmd/client/main.go
+```
+
+You will be prompted to enter your username and then you can start sending messages. Open multiple terminals to simulate multiple clients.
